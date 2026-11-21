@@ -1,0 +1,12 @@
+{
+  "name": "herdr-status",
+  "version": "0.1.0",
+  "description": "Command Code mod that reports agent state through OSC 7501 (Program Status Protocol)",
+  "keywords": ["cmd-mod"],
+  "license": "MIT",
+  "type": "module",
+  "files": ["index.ts", "README.md", "LICENSE"],
+  "commandcode": {
+    "mods": ["./index.ts"]
+  }
+}
