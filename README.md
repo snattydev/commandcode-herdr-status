@@ -1,4 +1,4 @@
-# herdr-status
+# herdr-status for Command Code
 
 A Command Code mod that tells your terminal what the agent is doing, using
 [OSC 7501 — the Program Status Protocol](https://mitchellh.com/writing/program-status-osc7501).
@@ -25,8 +25,16 @@ and pick the right icon.
 
 ## Install
 
+From GitHub:
+
 ```sh
-cmd mods add ~/Data/Projects/herdr-status
+cmd mods add snattydev/commandcode-herdr-status
+```
+
+From a local checkout:
+
+```sh
+cmd mods add ~/Data/Projects/commandcode-herdr-status
 ```
 
 or drop `index.ts` into `~/.commandcode/mods/` (for example

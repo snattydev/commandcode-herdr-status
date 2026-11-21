@@ -1,5 +1,5 @@
 {
-  "name": "herdr-status",
+  "name": "commandcode-herdr-status",
   "version": "0.1.0",
   "description": "Command Code mod that reports agent state through OSC 7501 (Program Status Protocol)",
   "keywords": ["cmd-mod"],
